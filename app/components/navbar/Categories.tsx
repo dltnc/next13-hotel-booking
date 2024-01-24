@@ -10,12 +10,11 @@ import {
   GiCaveEntrance, 
   GiForestCamp, 
   GiIsland,
-  GiWindmill
 } from 'react-icons/gi';
 import { FaSkiing } from 'react-icons/fa';
 import { BsSnow } from 'react-icons/bs';
 import { IoDiamond } from 'react-icons/io5';
-import { MdOutlineVilla } from 'react-icons/md';
+import { MdOutlineVilla, MdOutlineHomeWork } from 'react-icons/md';
 
 import CategoryBox from "../CategoryBox";
 import Container from '../Container';
@@ -28,17 +27,17 @@ export const categories = [
     description: 'This property is close to the beach!',
   },
   {
-    label: 'Windmills',
-    icon: GiWindmill,
+    label: 'Hotels',
+    icon: MdOutlineHomeWork,
     description: 'This property is has windmills!',
   },
   {
-    label: 'Modern',
+    label: 'Home Stay',
     icon: MdOutlineVilla,
     description: 'This property is modern!'
   },
   {
-    label: 'Countryside',
+    label: 'Tours',
     icon: TbMountain,
     description: 'This property is in the countryside!'
   },
@@ -53,7 +52,7 @@ export const categories = [
     description: 'This property is on an island!'
   },
   {
-    label: 'Lake',
+    label: 'House Boat',
     icon: GiBoatFishing,
     description: 'This property is near a lake!'
   },
