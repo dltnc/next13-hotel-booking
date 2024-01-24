@@ -29,17 +29,17 @@ export const categories = [
   {
     label: 'Hotels',
     icon: MdOutlineHomeWork,
-    description: 'This property is has windmills!',
+    description: 'This property is a hotel!',
   },
   {
     label: 'Home Stay',
     icon: MdOutlineVilla,
-    description: 'This property is modern!'
+    description: 'This property is modern home stay!'
   },
   {
     label: 'Tours',
     icon: TbMountain,
-    description: 'This property is in the countryside!'
+    description: 'This is a Tour Package!'
   },
   {
     label: 'Pools',

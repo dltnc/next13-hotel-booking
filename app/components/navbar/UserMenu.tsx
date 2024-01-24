@@ -52,13 +52,14 @@ const UserMenu: React.FC<UserMenuProps> = ({
             font-semibold 
             py-3 
             px-4 
+            bg-rose-300
             rounded-full 
             hover:bg-neutral-100 
             transition 
             cursor-pointer
           "
         >
-          Airbnb your home
+          Submit Your Home
         </div>
         <div 
         onClick={toggleOpen}
